@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Seline's Restaurant-Menu</title>
+
+  <link rel="stylesheet"
+        type="text/css"
+        href="styles/site.css">
+</head>
+
+<body>
+  <header>
+    <!-- Source: (original work) Client-Delesa McCruter -->
+    <picture class="logo">
+      <img src="images/selines-logo.jpg"
+      alt="logo"
+      width="560"
+      height="560">
+    </picture>
+
+    <div class="space">
+      <div class="stacked">
+        <h1 class="nav-text">Seline's: The Experience</h1>
+        <h3 class="slogan">Bringing the taste of <em>home</em> to <em>you</em>!</h3>
+    </div>
+      <button id="hamburgerbutton" class="accessible-hidden"
+      aria-label="show navigation">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Widescreen Navbar -->
+  <nav id="navigationmenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="ordering.html">Ordering</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="images.html">Images</a></li>
+    </ul>
+  </nav>
+
+  <div class="sidebar">
+  <section class= "main-co">
+    <div class="current-menu">
+      <div class="menu-header">
+        <h2>Most <strong class="emp">Recent </strong>Menu</h2>
+      </div>
+
+      <div class="image-display">
+        <!-- Source: (original work) Client-Delesa McCruter -->
+        <figure class="currentmenu">
+          <img src="images/march-2023-menu.jpg"
+            alt="March 2023 Menu"
+            width="720"
+            height="897">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- Source: (original work) Client-Delesa McCruter -->
+  <div class="previous-menu fixed-size-container">
+    <div class="menu-header">
+      <h2><strong class="emp">Previous</strong> Menu's</h2>
+    </div>
+
+
+    <div class="button-container">
+      <button id="menu-button-1" class="menu-button"
+      aria-label="show Oct 2022 menu 1">Oct 2022 #1</button>
+      <button id="menu-button-2" class="menu-button"
+      aria-label="show Oct 2022 menu 2">Oct 2022 #2</button>
+      <button id="menu-button-3" class="menu-button"
+      aria-label="show Sept 2022 menu">Sept 2022</button>
+    </div>
+
+    <div id="image-display" class="image-display">
+    <!-- Source: (original work) Client-Delesa McCruter -->
+    <picture id="image1" class="menu-image hidden">
+      <img src="images/oct-2022-menu.jpg"
+        alt="Oct 2022 Menu"
+        width="1170"
+        height="1450">
+    </picture>
+
+    <!-- Source: (original work) Client-Delesa McCruter -->
+    <picture id="image2" class="menu-image hidden">
+      <img src="images/oct-2022-menu2.jpeg"
+      alt="March 2023 Menu"
+      width="1170"
+      height="1458">
+    </picture>
+
+    <!-- Source: (original work) Client-Delesa McCruter -->
+    <picture id="image3" class="menu-image hidden">
+      <img src="images/sept-2022-menu.jpg"
+      alt="Sept 2022 Menu"
+      width="1170"
+      height="1452">
+    </picture>
+    </div>
+</div>
+</div>
+
+
+   <!-- Source: (original work) Client-Delesa McCruter -->
+   <footer>
+
+    <div class="footer-brand">
+      <span>Seline's</span>
+      <span class="experience-header">The Experience</span>
+    </div>
+
+      <div class="contact-info">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Instagram: <a href="https://instagram.com/selinestheexperience" target="_blank">@selinestheexperience</a></li>
+            <li>Email: <a href="mailto:selinestheexperience@gmail.com">selinestheexperience@gmail.com</a></li>
+            <li>Phone Number: 1(440)364-4985</li>
+          </ul>
+      </div>
+
+  </footer>
+   <!-- Source: (original work) Client-Delesa McCruter -->
+
+  <script src="scripts/jquery-3.7.1.js"></script>
+  <script src="scripts/hamburger-menu.js"></script>
+  <script src="scripts/menu.js"></script>
+
+
+</body>
+
+</html>

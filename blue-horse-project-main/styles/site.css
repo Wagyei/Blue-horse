@@ -1,0 +1,663 @@
+/* Body */
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    overscroll-behavior: none;
+    max-width: 1600px;
+}
+
+img {
+    display: block;
+}
+
+h1 {
+    padding: 10px;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+.stacked {
+    display:flex;
+    flex-direction: column;
+}
+
+h3 {
+    padding:0px 10px;
+    font-size:18px;
+    margin:0px;
+    margin-left:2px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #0d0005;
+}
+
+
+/* Header */
+header {
+    display:flex;
+    flex-direction:row;
+    background: linear-gradient(to right, #d892a4, #f7d6e1);
+    height:fit-content;
+}
+
+/* Navigation Menu */
+.nav-text{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom:5px;
+
+}
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 0;
+    padding-left: 0;
+    padding-top: 5px;
+    background-color: #f6dfe6;
+}
+
+nav ul li {
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+    background-color: #de9eaf97;
+}
+
+/* Main */
+.sidebar {
+    padding: 0 20px;
+}
+
+.main {
+    flex-grow:3;
+    border-style:double;
+    border-width: 5px;
+    padding: 10px;
+}
+
+/* Sidebar */
+aside {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #da93a3, #e9c0cc);
+    height: auto;
+}
+
+aside h2 {
+    margin-bottom: 10px;
+    color: #0d0005;
+}
+
+.orderingaside {
+    max-width: 35%;
+}
+
+.imagesaside {
+    max-width: 30%;
+}
+
+.faq-question {
+    cursor: pointer;
+    padding: 17px;
+    background-color: #ebdce2;
+    margin-top: 5px;
+    border-radius: 3px;
+    font-size: large;
+    text-align: left;
+    border: none;
+    transition: 0.3s;
+}
+
+.faq-question:hover {
+    background-color: #f4c7d7;
+    letter-spacing: 0.25px;
+}
+
+.faq-answer {
+    padding: 17px;
+    background-color: #fff;
+    border-radius: 3px;
+    font-size: large;
+
+}
+
+
+.sidebar {
+    display:flex;
+    flex-direction: row;
+}
+
+
+/* Footer */
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: linear-gradient(to right, #da93a3, #e9c0cc);
+    padding: 20px;
+    margin-top: 10px;
+    color: #161616;
+    border-top: 1px solid #ddd;
+}
+
+.footer-brand {
+    text-align: left;
+}
+
+.footer-brand span {
+    display: block;
+    font-size: 1.8em;
+}
+
+.experience-header {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #000;
+    font-weight: 600;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+footer li {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #333333;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+/* Home Page */
+.main-course-imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+.dessert-imgs {
+    display: flex;
+    flex-direction: row;
+}
+
+/* About Page */
+.about-paragraph {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutselines, .aboutchef {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
+/* Images Page */
+
+.dessertflexbox1, .dessertflexbox2, .wingcombo1, .wingcombo2, .entreeflexbox {
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* Images Styles */
+img {
+    display: block;
+    height: auto;
+    width: 100%;
+    min-width: 300px;
+    max-width: 500px;
+
+    border-radius: 5%;
+    border: 3px solid #d892a4;
+}
+
+.logo img{
+    width: 100px;
+    height: auto;
+    min-width: 50px;
+    max-width: 560px;
+}
+
+.business-image img{
+    width: 90%;
+    height: auto;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.chef-image img{
+    width: 90%;
+    height: auto;
+    min-width: 300px;
+    max-width: 600px;
+    margin: 0;
+    padding: 0;
+
+}
+.food-image img{
+    border-radius: 15%;
+    border: 3px solid #ff69b4;
+    width: 70%;
+}
+
+.mainmeal img{
+    width: 100%;
+    height: auto;
+    min-width: 200px;
+    max-width: 500px;
+}
+
+.dessert1 img {
+    width: 100%;
+    height: auto;
+    min-width: 300px;
+    max-width: 1470px;
+}
+
+.dessert2 img {
+    width: 90%;
+    height: auto;
+    min-width: 300px;
+    max-width: 1170px;
+}
+
+figcaption {
+    margin: 10px;
+    margin-top: 15px;
+}
+
+/* Responsive Site Styles */
+
+@media (max-width:1220px) {
+
+    aside {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .orderingaside, .imagesaside {
+        max-width: 100%;
+    }
+
+    .sidebar {
+        flex-direction: column;
+    }
+
+    .food-image {
+        width: 80%;
+    }
+    .current-menu {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media (max-width:1000px) {
+
+nav ul {
+    display:flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.sidebar {
+    flex-direction: column;
+}
+
+aside {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    margin-top: 10px;
+}
+
+.aboutselines, .aboutchef {
+    flex-direction: row;
+}
+
+.dessert-imgs {
+    flex-direction: column;
+}
+
+.main-course-imgs {
+    flex-direction: column;
+}
+
+.space {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top:2px;
+    justify-content: space-between;
+}
+
+#hamburgerbutton {
+    cursor: pointer;
+    font-size: 40px;
+    z-index: 100;
+    background-color:#ffe4ec;
+    width:60px;
+}
+
+#hamburgerbutton:hover {
+    background-color:#e493af;
+    letter-spacing: 3px;
+    border-radius: 2px;
+}
+
+
+.current-menu .image-display img,
+.previous-menu .image-display img {
+    max-width: 90%;
+}
+
+}
+
+@media (max-width:820px) {
+    .dessertflexbox1, .dessertflexbox2, .wingcombo1, .wingcombo2, .entreeflexbox {
+        flex-direction: column;
+    }
+
+    .food-image img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media (max-width:720px) {
+
+    header {
+        font-size: 90%;
+        padding-bottom: 15px;
+    }
+
+    .logo img {
+        width: 75px;
+    }
+
+    .aboutselines, .aboutchef {
+        flex-direction: column;
+    }
+
+    .business-image img, .chef-image img {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media (max-width:510px) {
+
+header {
+    font-size: 75%;
+    padding-bottom: 15px;
+}
+
+.slogan {
+    font-size: 120%;
+}
+.logo img {
+    width: 65px;
+}
+
+}
+
+/* Interactivity Styles */
+
+/* Hamburger Menu */
+#hamburgerbutton {
+    cursor: pointer;
+    font-size: 40px;
+    position:absolute;
+    right: 20px;
+}
+
+#hamburger-icon {
+    display: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.accessible-hidden {
+    position: absolute;
+    left: -100000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+/* Menu Modal */
+
+.menu-container{
+    display:flex;
+    flex-direction: row;
+}
+
+.current-menu img.image-display img {
+    max-width: 90%;
+    margin:0 auto;
+    height: auto;
+}
+
+.image-display img {
+    max-width: 70%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.previous-menu {
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.previous-menu img{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.current-menu figure {
+    margin:0;
+}
+
+.fixed-size-container {
+    width: 640px;
+    height: auto;
+    overflow: auto;
+}
+
+.max-image {
+    max-width: 70%;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image-display {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.image-display img {
+    max-width: 90%;
+    height: auto;
+}
+
+.main-co{
+    padding: 0px 0px;
+}
+.menu-button {
+    background-color: #d892a4;
+    color: white;
+    padding: 20px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid #ff8593;
+    font-family: Verdana, sans-serif;
+}
+
+.menu-button:hover {
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
+.hidden {
+    display: none !important;
+  }
+
+.menu-header h2 {
+    padding-bottom: 0.7em;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: #080808;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-header h2 strong{
+    font-weight: 600;
+}
+
+.emp {
+    color:#d892a4;
+}
+
+/* Modal on Home Pagae */
+
+#seasonalPopup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.65);
+    z-index: 10000;
+  }
+
+.clickhere {
+    background-color: #d892a4;
+    color: white;
+    padding: 25px 15px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    border: 2px solid #ff8593;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+}
+
+.clickhere:hover {
+    letter-spacing: 1px;
+    border-radius: 2px;
+}
+
+.popup-content {
+    position: relative;
+    margin: auto;
+    padding: 20px;
+    color: #6a213a;
+    width: 80%;
+    max-width: 600px;
+    border-radius: 7px;
+    background-color:#F5F5F4;
+  }
+
+.popup-header {
+    font-size: 43px;
+    color:black;
+    margin: 10px;
+
+}
+
+.abs-center {
+    height: 80%;
+    width: 80%;
+    overflow: auto;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+  }
+
+.close-popup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 25px;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #3D3D3D;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1);
+    float:right;
+}
+
+.close-popup:active {
+    border:dodgerblue;
+}
+
+.close-popup:hover {
+    background-color:#eed4da;
+    cursor: pointer;
+}

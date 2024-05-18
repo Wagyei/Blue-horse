@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="styles/site.css">
+
+  <title>Seline's Restaurant-Home</title>
+</head>
+
+<body>
+
+  <header>
+    <!-- Source: (original work) Client-Delesa McCruter -->
+    <picture class="logo">
+      <img src="images/selines-logo.jpg"
+        alt="logo"
+        width="560"
+        height="560">
+    </picture>
+
+    <div class="space">
+      <div class="stacked">
+        <h1 class="nav-text">Seline's: The Experience</h1>
+        <h3 class="slogan">Bringing the taste of <em>home</em> to <em>you</em>!</h3>
+    </div>
+      <button id="hamburgerbutton" class="accessible-hidden" aria-label="show navigation">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- Widescreen Navbar -->
+  <nav id="navigationmenu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="ordering.html">Ordering</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="images.html">Images</a></li>
+    </ul>
+  </nav>
+
+  <!-- On-Load Modal -->
+  <div id="seasonalPopup" class="hidden">
+    <div class="popup-content abs-center">
+      <button class="close-popup"
+      aria-label="close specials menu">Close</button>
+      <h2 class="popup-header">Seasonal Specials</h2>
+
+      <h2>Pumpkin Spice Pancakes</h2>
+      <p>Fluffy pumpkin spice pancakes topped with a dollop of cinnamon whipped cream and a sprinkle of toasted pecans.</p>
+
+      <h2>Buffalo Chicken Mac and Cheese</h2>
+      <p>Tender pieces of buffalo-seasoned chicken mixed with macaroni in a spicy cheesy sauce, topped with breadcrumbs.</p>
+
+      <h2>Chocolate Peppermint Cupcakes</h2>
+      <p>Chocolate cupcakes topped with a swirl of peppermint frosting, sprinkled with crushed peppermint candies; Perfect for the winter season!</p>
+
+    </div>
+  </div>
+
+
+  <div class="sidebar">
+  <section class= "main">
+  <h2>The Experience</h2>
+
+  <p><em class="selines">Seline's</em> provides authentic soul food to fuel the body, mind, and of course, the soul.</p>
+
+  <p> We aren't your usual typical soul food spot. Operating from a 100% virtual format, <em class="selines">Seline's</em> provides an experience of comfort, convenience, and charm.</p>
+
+  <p> Our menu emphasizes cutomization, so customers can pick the best plate to please their tastebuds.</p>
+
+  <p> <em class="selines">Seline's</em> plan to sell around every two weeks with dropping the menu a week in advance.</p>
+
+  <p>Check out some of our options!</p>
+
+  <button class= "clickhere" id="specialsbutton"
+  aria-label="show specials menu"> Click Here to View the Seasonal Specials!</button>
+   <!-- Source: (original work) Client-Delesa McCruter -->
+
+  <h2> Main Course</h2>
+
+  <div class="main-course-imgs">
+  <!-- Source: (original work) Client-Delesa McCruter -->
+  <figure class="mainmeal">
+    <img src="images/spaghetti-meatballs.jpg"
+      alt="Spaghetti and Meatballs with Side Salad and Garlic Bread"
+      width="401"
+      height="500">
+
+    <figcaption>Spaghetti &amp; Meatballs with Side Salad and Garilc Bread</figcaption>
+  </figure>
+
+  <!-- Source: (original work) Client-Delesa McCruter -->
+  <figure class="mainmeal">
+    <img src="images/lemon-pepper.jpg"
+      alt="Lemon Pepper Chicken Wings with Cajun French Fries"
+      width="405"
+      height="500">
+
+    <figcaption>Lemon Pepper Chicken Wings &amp; Cajun French Fries</figcaption>
+  </figure>
+  </div>
+
+  <h2> Dessert </h2>
+
+  <div class="dessert-imgs">
+  <!-- Source: (original work) Client-Delesa McCruter -->
+  <figure class="dessert1">
+    <img src="images/chocolate-peanut.jpg"
+      alt="Chocolate Peanut Butter Cake Desert"
+      width="352"
+      height="500">
+
+    <figcaption>Chocolate Peanut Butter Cake Jar</figcaption>
+  </figure>
+
+  <!-- Source: (original work) Client-Delesa McCruter -->
+  <figure class="dessert2">
+    <img src="images/cookies-cream.jpg"
+      alt="Cookies and Cream Desert Cup"
+      width="354"
+      height="500">
+      <figcaption>Cookies	&apos;N&apos; Cream Cookie Jar</figcaption>
+  </figure>
+  </div>
+  </section>
+
+  <aside class="orderingaside">
+    <h2>Frequently Asked Questions</h2>
+        <div class="faq-section">
+          <button class="faq-question" id="faq1"
+          aria-label="show answer">How does the pop-up business service work?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq1">
+            Once all the orders are placed and the form closes, the chef will prepare the meals the night before and have them ready for pick-up the next day at the set date and location.
+          </div>
+
+          <button class="faq-question" id="faq2"
+          aria-label="show answer">How do I pick up my order?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq2">
+            There will be an email sent out once the pick day comes closer and there will be directions to the location and times for the pick up of the food.
+          </div>
+
+          <button class="faq-question" id="faq3"
+          aria-label="show answer">Is there a minimum order requirement for pickup?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq3">
+            There are no minimum orders required!
+          </div>
+
+          <button class="faq-question" id="faq4"
+          aria-label="show answer">If I enjoy the food, is there a catering service available?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq4">
+            Catering is currently not available right now, but our team is working on expanding our availabilities so look out for future possibilities!
+          </div>
+
+          <button class="faq-question" id="faq5"
+          aria-label="show answer">Can I customize my orders or make special requests?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq5">
+            You can leave a comment about any food allergies or specific instructions, but other customizations are not possible at the moment.
+          </div>
+
+          <button class="faq-question" id="faq6"
+          aria-label="show answer">How often do the menus change and how often is this business available?</button>
+          <div class="faq-answer accessible-hidden" id="answer-faq6">
+            The menus change seasonally or for special occasions such as Halloween and the business goes live twice a month.
+          </div>
+        </div>
+  </aside>
+
+
+  </div>
+  <!-- Source: (original work) Client-Delesa McCruter -->
+
+
+  <footer>
+
+    <div class="footer-brand">
+      <span>Seline's</span>
+      <span class="experience-header">The Experience</span>
+    </div>
+
+      <div class="contact-info">
+          <h2>Contact Information</h2>
+          <ul>
+            <li>Instagram: <a href="https://instagram.com/selinestheexperience" target="_blank">@selinestheexperience</a></li>
+            <li>Email: <a href="mailto:selinestheexperience@gmail.com">selinestheexperience@gmail.com</a></li>
+            <li>Phone Number: 1(440)364-4985</li>
+          </ul>
+      </div>
+
+  </footer>
+
+   <!-- Source: (original work) Client-Delesa McCruter -->
+
+<script src="scripts/jquery-3.7.1.js"></script>
+<script src="scripts/seasonal.js"></script>
+<script src="scripts/faq.js"></script>
+<script src="scripts/hamburger-menu.js"></script>
+
+</body>
+
+</html>
